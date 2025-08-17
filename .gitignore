@@ -30,3 +30,22 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+
+
+# Node / Go / IDE stuff (optional)
+*.log
+*.env
+*.exe
+*.out
+.idea/
+.vscode/
+bin/
+vendor/
+
+# Docker-related
+docker-compose.override.yml
+*.dockerfile
+
+# MinIO local data
+/data/
+config/
